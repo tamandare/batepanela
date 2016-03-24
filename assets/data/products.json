@@ -1,5 +1,23 @@
 [
   {
+    "id": 1008,
+    "name": "Panela Wak Panelaço Especial Barulho nível III",
+    "listPrice": "229,99",
+    "bestPrice": "199,99"
+  },
+  {
+    "id": 1011,
+    "name": "Apito Diamantes Panelaço Especial Barulho nível III",
+    "listPrice": "559,99",
+    "bestPrice": "539,99"
+  },
+  {
+    "id": 1007,
+    "name": "Vuvuzela Nacionalista Barulho nível IV",
+    "listPrice": "18,99",
+    "bestPrice": "15,99"
+  },
+  {
     "id": 1001,
     "name": "Camiseta EU FAÇO A DIFERENÇA Masculina",
     "listPrice": "99,99",
@@ -36,18 +54,6 @@
     "bestPrice": "25,99"
   },
   {
-    "id": 1007,
-    "name": "Vuvuzela Nacionalista Barulho nível IV",
-    "listPrice": "18,99",
-    "bestPrice": "15,99"
-  },
-  {
-    "id": 1008,
-    "name": "Panela Wak Panelaço Especial Barulho nível III",
-    "listPrice": "229,99",
-    "bestPrice": "199,99"
-  },
-  {
     "id": 1009,
     "name": "Frigideira Panelaço Intermediário Barulho nível II",
     "listPrice": "159,99",
@@ -58,12 +64,6 @@
     "name": "Panela Aço Inox Panelaço Básico Barulho nível I",
     "listPrice": "99,99",
     "bestPrice": "89,99"
-  },
-  {
-    "id": 1011,
-    "name": "Apito Diamantes Panelaço Especial Barulho nível III",
-    "listPrice": "559,99",
-    "bestPrice": "539,99"
   },
   {
     "id": 1012,
