@@ -90,6 +90,9 @@
             <h2>Para quem faz a difereça no Brasil</h2>
           </div>
           <div ng-repeat="product in products" class="product col-md-3 col-sm-4">
+            <div class="badge-bestseller">
+              <img src="assets/img/badge-bestseller.png" alt="" />
+            </div>
             <div><img src="products/product{{ product.id }}.jpg" width="100%" /></div>
             <h3>{{ product.name }}</h3>
             <div class="price">
