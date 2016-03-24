@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1001,
+    "name": "Camiseta EU FAÇO A DIFERENÇA Masculina",
+    "listPrice": "99,99",
+    "bestPrice": "89,99"
+  },
+  {
+    "id": 1002,
+    "name": "Camiseta EU FAÇO A DIFERENÇA Feminina",
+    "listPrice": "99,99",
+    "bestPrice": "79,99"
+  },
+  {
+    "id": 1003,
+    "name": "Caneca EU FAÇO A DIFERENÇA Amarela",
+    "listPrice": "29,99",
+    "bestPrice": "26,99"
+  },
+  {
+    "id": 1004,
+    "name": "Caneca EU FAÇO A DIFERENÇA Verde",
+    "listPrice": "29,99",
+    "bestPrice": "26,99"
+  },
+  {
+    "id": 1005,
+    "name": "Colher especial Aço Inox barulho Nível III",
+    "listPrice": "39,99",
+    "bestPrice": "36,99"
+  },
+  {
+    "id": 1006,
+    "name": "Colher básica Madeira Barulho nível II",
+    "listPrice": "29,99",
+    "bestPrice": "25,99"
+  },
+  {
+    "id": 1007,
+    "name": "Vuvuzela Nacionalista Barulho nível IV",
+    "listPrice": "18,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 1008,
+    "name": "Panela Wak Panelaço Especial Barulho nível III",
+    "listPrice": "229,99",
+    "bestPrice": "199,99"
+  },
+  {
+    "id": 1009,
+    "name": "Frigideira Panelaço Intermediário Barulho nível II",
+    "listPrice": "159,99",
+    "bestPrice": "149,99"
+  },
+  {
+    "id": 1010,
+    "name": "Panela Aço Inox Panelaço Básico Barulho nível I",
+    "listPrice": "99,99",
+    "bestPrice": "89,99"
+  },
+  {
+    "id": 1011,
+    "name": "Apito Diamantes Panelaço Especial Barulho nível III",
+    "listPrice": "559,99",
+    "bestPrice": "539,99"
+  },
+  {
+    "id": 1012,
+    "name": "Apito Aço Preto Intermediário Barulho nível II",
+    "listPrice": "99,99",
+    "bestPrice": "89,99"
+  },
+  {
+    "id": 1013,
+    "name": "Apito Plástico Básico Barulho nível I/2",
+    "listPrice": "1,99",
+    "bestPrice": "0,99"
+  },
+  {
+    "id": 1014,
+    "name": "Adesivo Especial Dourado Bate Panelaço - Cartela com 15",
+    "listPrice": "19,99",
+    "bestPrice": "16,99"
+  }
+]

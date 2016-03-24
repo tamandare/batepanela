@@ -1,0 +1,145 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bate Panelaço! Loja Oficial - Fora Dilma, Lula, PT e Petralhas! Vamos fazer a diferença!</title>
+        <meta name="description" content="Chega de corrupção. Vamos pegar nossas panelas e nossos apitos e vamos fazer muito barulho! Fora Dilma, Lula, PT e petralhas! Vamos fazer a diferença!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="http://www.batepanela.co/assets/img/logo-fb.png" />
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+        <script src="assets/js/angular.min.js"></script>
+        <script src="panela.js"></script>
+    </head>
+    <body ng-app="panelaModule" ng-controller="panelaController">
+      <div class="topbar-wrapper">
+        <div class="topbar container">
+          <div class="row">
+            <div class="info col-xs-12 col-lg-3 col-md-4">
+              <span class="icon icon-freight">&nbsp;</span>
+              <span>Frete grátis para todo o Brasil*</span>
+            </div>
+            <div class="info col-xs-12 col-lg-2 col-md-3">
+              <span class="icon icon-delivery">&nbsp;</span>
+              <span>Entrega Expressa</span>
+            </div>
+            <div class="info col-xs-12 col-lg-3 col-md-3">
+              <span class="icon icon-change">&nbsp;</span>
+              <span>30 dias para troca grátis</span>
+            </div>
+            <div class="text-right col-xs-12 col-lg-2 col-lg-offset-2 col-md-2">
+              SAC: (11) 2091-12339
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="logo text-center container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+            <img src="assets/img/logo-batepanelaco.svg" width="100%" alt="" />
+          </div>
+        </div>
+        <div class="row">
+          <h1 class="col-xs-12">Loja Oficial - Fora Dilma, Lula, PT e Petralhas! Faça a diferença você também!</h1>
+        </div>
+      </div>
+
+      <div class="sales container-fluid">
+        <div class="row">
+          <div class="text-center col-md-12  hidden-xs hidden-sm hidden-sm text-center">
+            <img src="assets/img/banner-sales.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="banner-top banner1"></div>
+
+      <div class="newsletter-wrapper">
+        <div class="newsletter container clearfix">
+          <div class="row">
+            <div class="newsletter-text text-right col-lg-3 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-12 hidden-xs">
+              <strong>Ganhe 15% de deconto</strong> na primeira compra. Basta se cadastrar!
+            </div>
+            <div class="newsletter-text col-lg-3 col-lg-offset-3 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-12 visible-xs-block">
+              <strong>Ganhe 15% de deconto</strong> na primeira compra.<br/>Basta se cadastrar!<br/><br/>
+            </div>
+            <div class="col-lg-6 col-md-5 col-sm-6 col-xs-12">
+              <form class="form-inline" method="post" ng-submit="submitNewsletter();">
+                <div class="form-group">
+                  <label>
+                    E-mail <input type="email" class="form-control" placeholder="seu@email.com" ng-model="email" />
+                  </label>
+                  <button class="btn btn-default" type="submit">Cadastrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Para quem faz a difereça no Brasil</h2>
+          </div>
+          <div ng-repeat="product in products" class="product col-md-3 col-sm-4">
+            <div><img src="products/product{{ product.id }}.jpg" width="100%" /></div>
+            <h3>{{ product.name }}</h3>
+            <div class="price">
+              <s>De R$ {{ product.listPrice }}</s>
+              <div>
+                <span>R$ {{ product.bestPrice }}</span> à vista
+              </div>
+            </div>
+            <p>
+              <a href="/cart.html?id={{ product.id }}&price={{ product.bestPrice }}" name="button" class="btn btn-success btn-block btn-lg">Comprar</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-wrapper clearfix">
+        <div class="flags text-center">
+          <img src="assets/img/payment-flags.png" alt="" />
+        </div>
+        <div class="footer container text-center col-md-10 col-md-offset-1">
+          <div class="col-md-3">
+            <img src="assets/img/trustsign.png" alt="" />
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img/internet-segura.png" alt="" />
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img/visa.png" alt="" />
+          </div>
+          <div class="col-md-3">
+            <img src="assets/img/ebit.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bottombar">
+        <div class="container text-center">
+          Copyright Bate Panelaço 2016
+        </div>
+      </div>
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75228620-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </body>
+</html>

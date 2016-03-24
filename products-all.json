@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Pixuleco GG",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 1,
+    "name": "Panela de fritar ovo",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 2,
+    "name": "Colher de pau",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 3,
+    "name": "Colher de aço inox escovado",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 4,
+    "name": "Colher Fora PT folheada a ouro",
+    "listPrice": "199,99",
+    "bestPrice": "179,99"
+  },
+  {
+    "id": 5,
+    "name": "Porta acessórios Fora PT",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  },
+  {
+    "id": 6,
+    "name": "Faixa EU FAÇO A DIFERENÇA",
+    "listPrice": "19,99",
+    "bestPrice": "15,99"
+  }
+]

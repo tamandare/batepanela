@@ -1,0 +1,46 @@
+[
+  {
+    "slug": "fase",
+    "name": "FASE",
+    "website": "http://fase.org.br/campanha/",
+    "causes": [
+      "Direito à cidade",
+      "Justiça Ambiental",
+      "Mulheres",
+      "Soberania alimentar"
+    ]
+  },
+  {
+    "slug": "teto",
+    "name": "TETO",
+    "website": "https://www.techo.org/paises/brasil/amigos-do-teto/",
+    "causes": [
+      "Desenvolvimento comunitário",
+      "Consciência e ação social",
+      "Incidência em política",
+      "Assistência social"
+    ]
+  },
+  {
+    "slug": "acorde",
+    "name": "Acorde",
+    "website": "https://doare.org/organizacao/137/associacao-acorde-oficinas-para-desenvolvimento-humano",
+    "causes": [
+      "Educação complementar",
+      "Extensão cultural",
+      "Desenvolvimento humano",
+      "Assistência social"
+    ]
+  },
+  {
+    "slug": "doare",
+    "name": "Doare",
+    "website": "https://doare.org/contribua",
+    "causes": [
+      "Transformações sociais",
+      "Tecnologia",
+      "Desigualdades sociais",
+      "Realização de projetos"
+    ]
+  }
+]

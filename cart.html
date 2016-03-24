@@ -1,0 +1,88 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Bate Panelaço! Loja Oficial - Fora Dilma, Lula, PT e Petralhas! Vamos fazer a diferença!</title>
+        <meta name="description" content="Chega de corrupção. Vamos pegar nossas panelas e nossos apitos e vamos fazer muito barulho! Fora Dilma, Lula, PT e petralhas! Vamos fazer a diferença!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta property="og:image" content="http://www.batepanela.co/assets/img/logo-fb.png" />
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+        <script src="assets/js/angular.min.js"></script>
+        <script src="panela.js"></script>
+    </head>
+    <body ng-app="panelaModule" ng-controller="panelaController">
+      <div class="error text-center">
+        <div class="big">
+          ATENÇÃO: sua compra foi cancelada!
+        </div>
+        <div class="small">
+          Mas espera aí, temos uma sugestão pra você.
+        </div>
+      </div>
+
+      <div class="disclaimer text-center">
+        <div class="big">
+          Quer mudar o Brasil?
+        </div>
+        <div class="container-fluid">
+          <div class="small row">
+            <div class="col-lg-6 col-lg-offset-3">
+              Bater panela não muda nada, mas você pode fazer diferença de verdade.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="please text-center">
+        Como você pode usar seus R$ {{ selectedProductPrice }}:
+      </div>
+
+      <div class="container">
+        <div class="institutes row">
+          <div class="institute col-md-3 col-sm-6 col-xs-12" ng-repeat="institute in institutes">
+            <div class="detail">
+              <div class="img-thumbnail">
+                <img src="assets/img/logo-{{ institute.slug }}.png" alt="" />
+              </div>
+              <h3 class="text-center">{{ institute.name }}</h3>
+              <h4>Causas</h4>
+              <p>
+                <li ng-repeat="cause in institute.causes">{{ cause }}</li>
+              </p>
+            </div>
+            <p>
+              <a href="donation.html?url={{ institute.website }}" target="_blank" class="btn btn-lg btn-block btn-success">Quero fazer diferença!</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="god-message text-center">
+        <div class="big">
+          Pare e reflita!
+        </div>
+        <div class="small">
+          A vida é muito curta pra bater panela.
+        </div>
+      </div>
+
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-75228620-1', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </body>
+</html>
